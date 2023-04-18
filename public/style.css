@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inter;
+}
+
+#parent {
+  background-color: #c4c4c4;
+  border-radius: 6px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+#parent table {
+  border-spacing: 0;
+}
+
+#filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #c4c4c4;
+  border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.filter_parent {
+  background-color: #e4e4e4;
+}
+
+#year_filter_parent div label input {
+  width: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.word_break {
+  word-wrap: break-word;
+}
+
+.movie_poster {
+  height: 500px;
+}
+
+.movie_container {
+  gap: 2rem;
+  max-width: 700px;
+}
+
+.movie_info_container h3 {
+  margin: .5rem 0;
+}
+
+.movies:hover {
+  background-color: #b4b4b4;
+  transform: scale(1.02);
+  transition: .2s;
+  cursor: pointer;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.flex h2,
+.flex h3 {
+  font-size: 1rem;
+}
